@@ -12,5 +12,6 @@ endif()
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 add_executable(BashShell main.cpp
-        ShellHandel.cpp
+        src/ShellHandel.cpp
         include/ShellHandel.h)
+
